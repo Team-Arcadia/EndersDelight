@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+
+license="All Rights Reserved"
+
+[[mods]]
+    modId="endersdelight"
+    version="1.2.0"
+    displayName="Ender's Delight"
+    authors="Axedgaming, Furti Two"
+    description='''
+    An addon for Farmer's Delight based around adding culinary content to the end!
+    '''
+
+[[dependencies.endersdelight]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.219,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.endersdelight]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.endersdelight]]
+    modId="farmersdelight"
+    type="required"
+    versionRange="1.21.1-1.2.10"
+    ordering="NONE"
+    side="BOTH"
