@@ -1,7 +1,7 @@
 modLoader="javafml"
 loaderVersion="[1,)"
 
-license="All Rights Reserved"
+license="LGPL-2.1"
 
 [[mods]]
     modId="endersdelight"
